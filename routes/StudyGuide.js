@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const StudyGuide = require('../db/models/Links')
+const StudyGuide = require('../db/models/StudyGuide')
  
 router.get("/", (req, res) => {
     StudyGuide.find().then(data => {

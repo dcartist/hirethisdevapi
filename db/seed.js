@@ -4,7 +4,7 @@ const CheatSheetinfo = require('./data/CheatSheets.json')
 const CheatSheet = require('./models/CheatSheets')
 const Jobsinfo = require('./data/Jobs.json')
 const Job = require('./models/Jobs')
-const StudyGuide = require('./models/Links')
+const StudyGuide = require('./models/StudyGuide')
 const studyInfo = require('./data/StudyGuide.json')
 
 
