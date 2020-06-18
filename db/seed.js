@@ -4,7 +4,8 @@ const CheatSheetinfo = require('./data/CheatSheets.json')
 const CheatSheet = require('./models/CheatSheets')
 const Jobsinfo = require('./data/Jobs.json')
 const Job = require('./models/Jobs')
-
+const StudyGuide = require('./models/Links')
+const studyInfo = require('./data/StudyGuide.json')
 
 
 function Creation(Name, data){
@@ -17,6 +18,7 @@ function Creation(Name, data){
 }
 
 
-Creation(GitRepos, Gitinfo )
-Creation(CheatSheet, CheatSheetinfo)
-Creation(Job, Jobsinfo)
+// Creation(GitRepos, Gitinfo )
+// Creation(CheatSheet, CheatSheetinfo)
+// Creation(Job, Jobsinfo)
+Creation(StudyGuide, studyInfo)
