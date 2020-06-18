@@ -1,0 +1,32 @@
+[
+    {
+    "name": "Design resources for developers",
+    "description": "Design resources for developers",
+    "categories": ["git", "github", "design", "inspirational"],
+    "url": "https://github.com/bradtraversy/design-resources-for-developers",
+    "rating": 10,
+    "thumbsUp": 0,
+    "thumbsDown": 0,
+    "active": true
+    },
+    {
+        "name" : "FreeCodeAcademy",
+        "description": "Free Code Academy awesome resources",
+        "categories": ["git", "github", "design", "inspirational"],
+        "url" : "https://github.com/freeCodeCamp/freeCodeCamp",
+    "rating": 10,
+    "thumbsUp": 0,
+    "thumbsDown": 0,
+    "active": true
+    },
+    {
+        "name" : "Public API",
+        "description": "Showing the list of Api's to use",
+        "categories": ["git", "github", "Public", "Api"],
+        "url" : "https://github.com/public-apis/public-apis",
+    "rating": 10,
+    "thumbsUp": 0,
+    "thumbsDown": 0,
+    "active": true
+    }
+]
