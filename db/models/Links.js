@@ -1,7 +1,7 @@
 const mongoose = require('../connection.js')
 const Schema = mongoose.Schema;
 
-const GitRepos = new mongoose.Schema({
+const Links = new mongoose.Schema({
     name: {
         type: String,
         default: String,
@@ -22,11 +22,10 @@ const GitRepos = new mongoose.Schema({
         type: Boolean,
         default: true
     }, 
-    rating: {type: Number},
     thumbsUp: {type: Number},
     thumbsDown: {type: Number},
 
 })
 
-let gitInfo = mongoose.model('GitRepos', GitRepos)
-module.exports = gitInfo
+let Link = mongoose.model('Links', Links)
+module.exports = Link
