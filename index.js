@@ -1,6 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 const gitReposController = require("./routes/GitRepo");
+const jobController = require("./routes/Job");
+const cheatsheetController = require("./routes/CheatSheet");
 const app = express();
 const parser = express.json();
 app.use(express.json());
@@ -13,6 +15,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/gitrepos", gitReposController);
+app.use("/jobs", jobController);
+app.use("/cheatsheets", cheatsheetController);
 
 app.set("port", process.env.PORT || 8080);
 

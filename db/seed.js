@@ -2,6 +2,8 @@ const Gitinfo = require('./data/githubRepos.json')
 const GitRepos = require('./models/GitRepos')
 const CheatSheetinfo = require('./data/CheatSheets.json')
 const CheatSheet = require('./models/CheatSheets')
+const Jobsinfo = require('./data/Jobs.json')
+const Job = require('./models/Jobs')
 
 
 
@@ -17,3 +19,4 @@ function Creation(Name, data){
 
 Creation(GitRepos, Gitinfo )
 Creation(CheatSheet, CheatSheetinfo)
+Creation(Job, Jobsinfo)

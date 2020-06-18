@@ -1,0 +1,12 @@
+[
+    {
+    "name": "Jr. Developers",
+    "description": "Jobs for Jr Developers",
+    "categories": ["Javascript", "Node", "JS", "code", "jr", "developer", "job", "jobboard"],
+    "url": "https://www.jrdevjobs.com/",
+    "rating": 0,
+    "thumbsUp": 0,
+    "thumbsDown": 0,
+    "active": true
+    }
+]
